@@ -1,0 +1,5 @@
+cryptography==37.0.4
+inquirer==2.10.0
+maskpass==0.3.6
+pyfiglet==0.8.post1
+termcolor==2.0.1

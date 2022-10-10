@@ -105,7 +105,7 @@ def enc():
         text = bytes(inquirer.text(message="Input the text "), 'utf-8')
         key = thekey()
         print(Fernet(key).encrypt(text))
-        wrkey(key, text)
+        wrkey(key, str(text).split("b", 1)[-1].split("'")[1])
     elif file_inp['file_inp'] == "file":
         filepath = inquirer.text(message=r"Input the files location ")
         cheak = os.path.isfile(filepath)

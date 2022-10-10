@@ -9,7 +9,7 @@ Text, File ,Directory and Sub-Directory Encryption, hash and Stenography&nbsp;[H
 <img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg">
 </p>
 <p align="center">
-<img title="File-Encryptor" src="https://github.com/Exido-Rio/Directory-Encryptor/blob/main/.needs/cryptography.gif">
+<img title="The-Encryptor" src="https://github.com/HCIO-A5XORT/The-Encryptor/blob/main/Docs/Tool.png">
 </p>
 <p align="center">
 <a href="https://github.com/Exido-Rio"><img title="Github" src="https://img.shields.io/badge/Creator-Exido--Rio-brightgreen"></a>

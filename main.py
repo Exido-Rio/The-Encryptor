@@ -6,7 +6,7 @@ from Operations.utils import *
 
 
 fig = Figlet(font='slant')
-Created_by = colored('                                                 By Aditya Prakash\n', 'yellow', attrs=['bold'])
+Created_by = colored('                                                 By Exido-Rio\n', 'yellow', attrs=['bold'])
 About_tool = colored('  A tool to encrypt and decrypt your data easily using Fernet Encryption.'
                           ' You can also use this on any type of file upto 50GB.', 'blue')
 print(colored(fig.renderText('ENCRYPTOR'), 'green'), Created_by, About_tool, '\n')

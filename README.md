@@ -27,7 +27,7 @@ Text, File ,Directory and Sub-Directory Encryption, hash and Stenography&nbsp;[H
 
 * This is a command line tool for the encryption and decryption of your files.
 * This is repositary use python cryptography libraies to encrypt and decrypt your files. 
-* This tool can be used to make anything encrypted using just a simple password no need to keey any log key files with 
+* This tool can be used to make anything encrypted using just a simple password no need to keep any key files with 
   you unless you want the system to genrate a key for you.
 
 </p>

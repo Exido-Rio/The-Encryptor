@@ -11,6 +11,8 @@ from sys import platform
 from maskpass import askpass
 from typing import Optional
 from pyfiglet import Figlet
+import hashlib
+from hashlib import blake2b
 
 
 def clrscr():

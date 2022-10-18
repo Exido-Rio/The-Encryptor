@@ -52,10 +52,12 @@ def file_get():
 
 def wrkey(key, path, selc: Optional[str] = ""):
     os.chdir(keydir+r"/Keys")
-    if platform == 'win32':
+    try:
         np = path.split("\\")[-1]
-    else:
-        np = path.split("/")[-1]
+        if ("/") in np :
+            np = path.split("/")[-1]
+    except:
+        pass
 
     with open(f"{selc} {np}key.cryptokey", "wb")as thekey:
         thekey.write(key)

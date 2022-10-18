@@ -71,6 +71,70 @@ python3 or python main.py
 
 ```
 
+## Encrypting :
+
+* To encrypt follow the easy steps
+* Selecting the encryption option 
+
+<img src="https://github.com/Exido-Rio/The-Encryptor/blob/main/Docs/encrypting.png">
+
+* Selceting the whatever you wanna encrypt 
+
+<img src="https://github.com/Exido-Rio/The-Encryptor/blob/main/Docs/selecting_the_object_to_encrypt.png">
+
+* Enten the files if selected files 
+
+<img src="https://github.com/Exido-Rio/The-Encryptor/blob/main/Docs/file_location.png">
+
+* Selecting the key 
+
+<img src="https://github.com/Exido-Rio/The-Encryptor/blob/main/Docs/select_key.png">
+
+* Then it will encrypt files or text and save key also display the location of key
+
+
+<img src="https://github.com/Exido-Rio/The-Encryptor/blob/main/Docs/encrypting_and_saving_key.png">
+
+
+## Decrypting :
+
+* To decrypt follow the easy steps
+* Selecting the decryption option 
+
+<img src="https://github.com/Exido-Rio/The-Encryptor/blob/main/Docs/decrypting.png">
+
+* Selceting the whatever you wanna decrypt 
+
+<img src="https://github.com/Exido-Rio/The-Encryptor/blob/main/Docs/selecting_the_dec_obj.png">
+
+* Enten the files if selected files 
+
+<img src="https://github.com/Exido-Rio/The-Encryptor/blob/main/Docs/file_location.png">
+
+* Selecting the key (You need to enter keyfile location incase you use it else you can use the password you used it to encrypt)
+
+<img src="https://github.com/Exido-Rio/The-Encryptor/blob/main/Docs/select_key.png">
+
+* Then you will have you files or text decrypted if key was corret and files were encrypted 
+
+<img src="https://github.com/Exido-Rio/The-Encryptor/blob/main/Docs/dec_files.png">
+
+## Hashing :
+
+* To genrate the hash of anything 
+* Select the hash opration
+* Select what you wanna genrate hash 
+* Select the hashing Algorithm 
+  Currently 3 Algorithm are supported 
+  * MD5
+  * SHA1 
+  * BLAKE2b
+  
+* You will get the hash 
+
+## Stenography :
+  
+  Upcoming Featue 
 
 ## CONNECT WITH US :
 

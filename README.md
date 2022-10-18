@@ -42,7 +42,7 @@ Text, File ,Directory and Sub-Directory Encryption, hash and Stenography&nbsp;[H
 * pip [Updatd Version]
 * python3
 ```
-git clone https://github.com/HCIO-A5XORT/The-Encryptor.git
+git clone https://github.com/Exido-Rio/The-Encryptor.git
 cd The-Encryptor
 python3 or python -m pip install -r requirements.txt
 ```

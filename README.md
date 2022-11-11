@@ -123,7 +123,7 @@ python3 or python main.py
 
 * To genrate the hash of anything 
 * Select the hash opration
-* Select what you wanna genrate hash 
+* Select what you wanna genrate hash of
 * Select the hashing Algorithm 
   Currently 3 Algorithm are supported 
   * MD5

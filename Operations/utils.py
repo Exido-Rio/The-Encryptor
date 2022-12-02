@@ -1,6 +1,7 @@
 import os
 import sys
 import base64
+import signal
 import inquirer
 from cryptography.fernet import Fernet
 from cryptography.hazmat.primitives import hashes
@@ -14,6 +15,12 @@ from pyfiglet import Figlet
 import hashlib
 from hashlib import blake2b
 
+
+def KeybordInteruptHandler(signal , frame):
+    print(Fore.YELLOW,"\nKeybordInterupt (ID: {}) has been caught".format(signal),Fore.RESET)
+    exit()
+
+signal.signal(signal.SIGINT, KeybordInteruptHandler)
 
 def clrscr():
     try:

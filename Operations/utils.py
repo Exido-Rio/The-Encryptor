@@ -16,12 +16,6 @@ import hashlib
 from hashlib import blake2b
 
 
-def KeybordInteruptHandler(signal , frame):
-    print(Fore.YELLOW,"\nKeybordInterupt (ID: {}) has been caught".format(signal),Fore.RESET)
-    exit()
-
-signal.signal(signal.SIGINT, KeybordInteruptHandler)
-
 def clrscr():
     try:
         if platform == 'win32':

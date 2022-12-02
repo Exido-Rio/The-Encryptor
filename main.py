@@ -4,6 +4,13 @@ from Operations.dcy import dcy
 from Operations.hashing import hasher
 from Operations.utils import *
 
+def KeybordInteruptHandler(signal , frame):
+    print(Fore.YELLOW,"\nKeybordInterupt (ID: {}) has been caught".format(signal),Fore.RESET)
+    exit()
+
+signal.signal(signal.SIGINT, KeybordInteruptHandler)
+
+
 
 fig = Figlet(font='slant')
 Created_by = colored('                                                 By Exido-Rio\n', 'yellow', attrs=['bold'])

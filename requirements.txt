@@ -1,5 +1,9 @@
+click_shell==2.1
 cryptography==37.0.4
-inquirer==2.10.0
+inquirer==3.1.2
 maskpass==0.3.6
+numpy==1.23.4
+opencv_python==4.6.0.66
+printy==2.2.0
 pyfiglet==0.8.post1
-termcolor==2.0.1
+termcolor==2.2.0

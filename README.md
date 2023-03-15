@@ -66,6 +66,7 @@ python3 or python -m pip install -r requirements.txt
 ```
 Ex:-
 python3 or python main.py
+python3 or python encrypto.py [ To run in shell mode ]
 
 * It will take time depending upon the file size 
 
